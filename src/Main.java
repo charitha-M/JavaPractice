@@ -7,5 +7,7 @@ public class Main {
         System.out.println("Hello and welcome!");
         DataTypes dt = new DataTypes();
         dt.display();
+        NonPrimitiveDataTypes ndt = new NonPrimitiveDataTypes();
+        ndt.displayNonPrimitiveData();
     }
 }
