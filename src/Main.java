@@ -9,5 +9,7 @@ public class Main {
         dt.display();
         NonPrimitiveDataTypes ndt = new NonPrimitiveDataTypes();
         ndt.displayNonPrimitiveData();
+        TakingInput ti = new TakingInput();
+        ti.displayUserInput();
     }
 }
